@@ -1,0 +1,90 @@
+body {
+    background-color: lightblue;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    max-width: 95%;
+    max-height: 95%;
+  }
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    /* border-left: 1px solid black; */
+    padding: 10px;
+  }
+  
+  .display-3 {
+    font-weight: bold;
+  }
+
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  .description{
+    white-space: pre;
+  }
+  
+  .timeBlock{
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre;
+    height: 80px;
+    border-top: 1px solid white;;
+  }
+  
+  .hour {
+    opacity: 80%;
+    background-color: black;
+    padding-top: 3%;
+    font-weight: bolder;
+    color: white;
+  }
+  
+  .past {
+    background-color: #b8b6b6;
+    color: white;
+  }
+  
+  .present {
+    background-color: white;
+    color: black;
+  }
+  
+  .future {
+    background-color: rgb(61, 128, 61);
+    color: white;
+  }
+  
+  .saveBtn {
+    box-shadow: 10px 10px 10px black;
+    background: none;
+    border-left: 1px solid black;
+    color: white;
+  }
+  /* trying a css transition "ease" for the save button */
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease;
+/* Changing the size of app for screen size */
+  @media screen and (max-width: 600px) {
+    .saveBtn {
+      margin: inherit;
+      border-left: none;
+      border: none;
+    }
+  }
+ 
