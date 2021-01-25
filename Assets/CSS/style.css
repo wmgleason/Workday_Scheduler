@@ -1,6 +1,6 @@
 body {
-    background-color: lightblue;
-    opacity: 0.7;
+    background-color: lightsteelblue;
+    opacity: 0.8;
     background-position: center;
     background-size: cover;
     font-family: 'Quicksand', sans-serif;
@@ -55,17 +55,17 @@ body {
   }
   
   .past {
-    background-color: #b8b6b6;
+    background-color: lightgrey;
     color: white;
   }
   
   .present {
-    background-color: white;
+    background-color: rgb(247, 135, 120);
     color: black;
   }
   
   .future {
-    background-color: rgb(61, 128, 61);
+    background-color: lightseagreen;
     color: white;
   }
   
@@ -79,6 +79,7 @@ body {
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease;
+  }
 /* Changing the size of app for screen size */
   @media screen and (max-width: 600px) {
     .saveBtn {
@@ -87,4 +88,3 @@ body {
       border: none;
     }
   }
- 
