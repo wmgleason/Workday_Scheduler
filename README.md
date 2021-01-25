@@ -10,7 +10,7 @@ Workday Scheduler exercises the use of elementary HTML, CSS, JavaScript and APIs
 <h2>Visuals</h2>
 
 Workday Scheduler is modelled on this gif:
-![Image of the Workday Scheduler example](https://wmgleason.github.io/Workday_Scheduler/05-third-party-apis-homework-demo.gif)
+![Image of the Workday Scheduler example](https://wmgleason.github.io/Workday_Scheduler/workday_scheduler_model.gif)
 
 <h2>Installation</h2>
 
