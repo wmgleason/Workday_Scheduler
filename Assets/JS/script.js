@@ -23,6 +23,12 @@ function colorSchedule(){
         };
     });
 }
+//Adding a click event which will save the user input to local storage - input will be saved despite page refresh
+$(".saveBtn").click(function(){
+    var scheduleInputs = $(this).siblings(".event").val();
+    var inputsLocation = $(this).siblings(".event").attr("id");
+    localStorage.setItem(inputsLocation,scheduleInputs);
+});
 
 colorSchedule();
 });
